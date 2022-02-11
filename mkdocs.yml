@@ -1,0 +1,24 @@
+site_name: Site para alpinista
+site_author: Jurandy Soares
+site_dir: /var/www/localhost/htdocs/redes
+
+theme:
+  name: readthedocs
+  language: pt
+  palette:
+    primary: green
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  # - pymdownx.superfences
+  - footnotes
+  - pymdownx.emoji
+
+plugins:
+  - mermaid2
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
